@@ -1,0 +1,11 @@
+Flask>=2.0
+Flask-WTF
+Flask-SQLAlchemy
+Flask-Login
+Flask-Bcrypt
+cryptography~=46.0.1
+email-validator
+
+WTForms~=3.2.1
+utils~=1.0.2
+MyApplication~=0.1.0
