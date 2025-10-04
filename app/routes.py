@@ -1,8 +1,9 @@
-from flask import Blueprint, render_template, redirect, url_for, flash, request
-from . import db, bcrypt
-from .models import User, PasswordEntry
-from .forms import RegisterForm, LoginForm, PasswordForm
+from flask import Blueprint, render_template, redirect, url_for, flash
 from flask_login import login_user, logout_user, login_required, current_user
+
+from . import db, bcrypt
+from .forms import RegisterForm, LoginForm, PasswordForm
+from .models import User, PasswordEntry
 from .utils import encrypt_password, decrypt_password
 
 main = Blueprint('main', __name__)
