@@ -15,7 +15,7 @@ Store, encrypt, and manage your passwords safely with user authentication, CSRF 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/password-manager.git
+git clone https://github.com/SaeedNK90/Password-Manager.git
 cd password-manager
 ```
 
